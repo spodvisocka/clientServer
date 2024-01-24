@@ -433,16 +433,15 @@ function SurveyComponent() {
     <div className="main">
       {proceed && (
         <div className="consentmain">
-          
         <div className="consentpage">
-          {/* Add your consent content here */}
-      
 
           <h1>Welcome to the XTC Shop</h1>
           <h3> ...where we ask, what if policy makers decide to regulate ecstasy? What would a point of sale or outlet look like? Who should be able to buy or access legalised ecstasy? And under what conditions?
           </h3>
 
-          <video width="640" height="360" controls> <source src="/images/introvid.mp4" type="video/mp4"></source></video>
+          <iframe src="https://player.vimeo.com/video/906077942?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="500" height="281"  frameborder="0" allow="autoplay; fullscreen; picture-in-picture" title="introvidpoppi"></iframe><script src="https://player.vimeo.com/api/player.js"></script>
+
+
           <div className="instructions">
           <h3>If playing on a tablet or mobile device, please turn the screen horizontally for the best experience.</h3>
 

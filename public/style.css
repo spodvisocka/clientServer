@@ -165,12 +165,12 @@ h3 {
 }
 
 
-video {
+.consentpage iframe {
   margin: auto;
   margin-top: 30px;
   margin-bottom: 30px;
   border-radius: 15px;
-  max-width: 100%;
+  width: 100%;
 }
 
 
@@ -180,7 +180,7 @@ video {
     margin-right: 1%;
   }
 
-  video {
+  iframe {
     height: auto;
   }
 }
@@ -213,8 +213,9 @@ video {
 
 .consentmain {
   display: flex;
+  align-items: flex-start;
   justify-content: center;
-  width: 100vw;
+  height: 100vh;
   margin: auto;
 }
 
@@ -222,6 +223,7 @@ video {
   .consentpage{
   justify-content: start;
   align-items: start;
+  width: 100vw;
   }
   h3 {
   font-size: 1rem;
@@ -230,8 +232,9 @@ video {
     }
 
 .consentpage {
+  height: 100%;
   margin: auto;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   border: solid 3px blue;
   border-radius: 20px;
@@ -240,7 +243,9 @@ video {
   padding: 25px;
   margin-left: 10%;
   margin-right: 10%;
+  margin-top: 20px;
   color: #0D1868;
+  overflow-y: scroll;
 }
 
 .instructions {
