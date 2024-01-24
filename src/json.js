@@ -1,5 +1,5 @@
 export const json = {
-   "logoPosition": "right",
+   "logoPosition": "right", 
    "pages": [
     {
      "name": "page2",
